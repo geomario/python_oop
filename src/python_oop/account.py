@@ -23,7 +23,7 @@ class Account:
             password (str): The password of the account
 
         Returns:
-            _type_: None
+            _type_: None or float - The balance of the account
         """
         if password != self.password:
             print(f"{Fore.RED}Invalid Password{Style.RESET_ALL}")
@@ -44,6 +44,9 @@ class Account:
         Args:
             amount_to_withdraw (float): The amount of money to dispense
             password (str): The password of the account
+
+        Returns:
+            _type_: None or float - The balance of the account
         """
         if password != self.password:
             print(f"{Fore.RED}Invalid Password{Style.RESET_ALL}")
@@ -67,7 +70,7 @@ class Account:
             password (str): The password of the account
 
         Returns:
-            float: The balance of the account
+            _type_: None or float - The balance of the account
         """
 
         if password != self.password:
